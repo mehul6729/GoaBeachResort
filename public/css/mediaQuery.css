@@ -1,0 +1,128 @@
+@media screen and (max-width: 1056px){
+
+    .header__heading{
+        font-size: 3rem;
+    }
+    .Book{
+        background-image:  linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%,
+         rgba(255, 255, 255, 0.9) 60%, transparent 60%),
+        url(img/background3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: transparent;
+     }
+
+     input.input{
+        width: 70%;
+     }
+} 
+
+@media screen and (max-width:750px){
+
+    .about__heading h2{
+        font-size: 3rem ;
+    }
+
+    .facilities__heading h2{
+        font-size: 3rem ;
+    }
+
+    .about__para p{
+        font-size: 2rem;
+    }
+    .Book{
+       background-image:  linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%,
+        rgba(255, 255, 255, 0.9) 60%, transparent 60%),
+       url(img/background3.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-color: transparent;
+    }
+    
+
+    input.input{
+        width: 75%;
+    }
+    
+} 
+
+@media screen and (max-width:590px){
+
+    ul li{
+        font-size: 1rem !important;
+    }
+    ul h3{
+        font-size: 1.5rem !important;
+    }
+    .header__heading{
+        font-size: 2.5rem;
+        letter-spacing: 3px;
+    }
+    .btn__book{
+        margin-left: 1rem !important;
+    }
+} 
+
+
+@media screen and (max-width:555px){
+
+      .header__heading{
+        font-size: 2.5rem;
+        letter-spacing: 3px;
+        line-height: 4rem;
+    }
+
+    .header .btn{
+        padding: .5rem 2.5rem ;
+        font-size: 1.5rem;
+    }
+} 
+@media screen and (max-width:460px){
+
+    .booking__btn{
+        padding: 1rem 4rem !important; 
+    }
+}
+
+
+@media screen and (max-width:422px){
+
+    .header__heading{
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+      line-height: 6rem;
+  }
+
+  .header .btn{
+      padding: .5rem 2.5rem ;
+      font-size: 1.5rem;
+  }
+
+  input.input{
+    width: 100%;
+    margin: 3rem auto;
+ }
+} 
+
+
+@media screen and (max-width:338px){
+
+    .header__heading{
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      line-height: 6rem;
+  }
+
+  .header .btn{
+    width: 70%;
+      padding: .5rem 1rem ;
+      font-size: 1.5rem;
+      margin: 2rem auto ;
+      display: block;
+  }
+
+  .btn__book{
+    margin: 2rem auto !important;
+  }
+} 
+

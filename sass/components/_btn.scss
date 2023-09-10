@@ -1,0 +1,47 @@
+.header{
+    &__btn_box{
+        text-align: center;
+        display: block;
+        width: 100%;
+        position: absolute;
+        bottom: 1%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .btn{
+        text-decoration: none;
+        font-size: 2.5rem;
+        color: aliceblue;
+        font-weight: 200;
+        padding: .5 2rem;
+        border-radius: 2rem;
+        letter-spacing: 2px;
+
+        &__view{
+            background-color: $purple;
+            
+
+            &:hover,
+            &:active{
+               border: 1px solid $purple;
+                color: $purple;
+            }
+        }
+
+        &__book{
+            color: $yellow;
+            border: 1px solid $yellow;
+            margin-left: 10rem;
+
+            &:hover,
+            &:active {
+                background-color: $yellow;
+                color: white;
+            }
+        }
+
+    }
+}
+
+ 

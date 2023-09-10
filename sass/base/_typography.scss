@@ -1,0 +1,120 @@
+.header {
+    &__heading {
+        color: #ffffff;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 6rem;
+        letter-spacing: .5rem;
+        font-weight: 100;
+
+
+
+        &_box {
+            display: inline-block;
+            position: absolute;
+            top: 20%;
+            left: 5%;
+
+        }
+    }
+}
+
+.about {
+    &__heading {
+        text-align: center;
+
+        & h2{
+            color: $purple;
+        font-family: Lato;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.8px;
+        word-spacing: .9rem;
+        margin-bottom: 2rem;
+        }
+    }
+
+    &__para{
+          
+            
+        & p{
+            width: 80%;
+            
+            margin: 0 auto;
+            color: #6230A3;
+            font-family: Lato;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 3rem;
+            letter-spacing: 1.2px;
+            padding-bottom: 4rem;
+
+            & b{
+                margin-right: .4rem;
+                text-decoration: underline;
+            }
+        }
+      
+    }
+}
+
+
+.facilities{
+    h3{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    h2{
+        color: $purple;
+        font-family: Lato;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.8px;
+        word-spacing: .9rem;
+        margin-bottom: 2rem;
+    }
+
+    p{
+        color: black;
+    }
+    p span{
+        color: $purple;
+        font-size: 1.5rem;
+        margin-right: 3rem;
+    }
+
+    &__icons{
+        & i{
+            font-size: 1.5rem;
+            margin-right: .5rem;
+            
+        }
+    }
+   
+}    
+ 
+ 
+.contact{
+    &__heading{
+        text-align: center;
+        margin-bottom: 2rem;
+        & h2{
+            color: black;
+            font-family: Lato;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.8px;
+        word-spacing: .9rem;
+        
+            
+        }
+    }
+}

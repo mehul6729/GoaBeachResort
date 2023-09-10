@@ -1,0 +1,27 @@
+.contact{
+    background-color:#fff9d5;
+    overflow: hidden;
+
+    & ul {
+
+
+        & h3{
+
+        }
+
+        & li{
+            text-decoration: none;
+            font-size: 1.5rem;
+            margin-bottom: .5rem;
+            color: $purple;
+        }
+    }
+
+    
+} 
+
+.maps{
+    text-align: center;
+    margin: 0 auto;
+    margin: 2rem 0;
+   }

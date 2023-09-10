@@ -1,0 +1,26 @@
+.facilities{
+    background-color: #FFF3A6;
+    color: $purple;
+    padding-bottom: 4rem;
+    & ul{
+        color: black;
+        list-style: none;
+        & li{
+            color: $purple;
+            text-decoration: none;
+            font-size: 1.5rem;
+            margin-bottom: .5rem;
+
+            &::marker{
+                display: none;
+            }
+        }
+
+    }
+
+    &__heading{
+        text-align: center; 
+    }
+
+}
+
